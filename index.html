@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="is-loading">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Scarlette Radiance — wepink</title>
+<meta name="description" content="Scarlette Radiance, da wepink. Uma fragrância floral luminosa de assinatura ambarada para mulheres que iluminam tudo ao seu redor.">
+<meta name="theme-color" content="#08050A">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2308050A'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%23FF1B7C'/%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="preload" as="image" href="frames/frame_0001.webp" media="(min-width: 769px)">
+<link rel="preload" as="image" href="frames-mobile/frame_0001.webp" media="(max-width: 768px)">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-loading">
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader">
+  <div class="preloader__inner">
+    <h1 class="preloader__word">Scarlette</h1>
+    <div class="preloader__track"><span class="preloader__fill" id="preFill"></span></div>
+    <div class="preloader__pct" id="prePct">0%</div>
+  </div>
+</div>
+
+<!-- ============ TOPBAR ============ -->
+<header class="topbar">
+  <a class="logo" href="#" aria-label="wepink">we<span>pink</span></a>
+  <div class="topbar__label" id="sceneLabel" aria-live="polite">Scarlette Radiance</div>
+  <a class="topbar__cta" href="#" data-buy>Comprar</a>
+</header>
+
+<!-- ============ STAGE ============ -->
+<main class="stage" id="stage">
+
+  <canvas class="seq" id="seq" role="img"
+          aria-label="Frasco de Scarlette Radiance girando dentro de uma explosão de pó colorido"></canvas>
+  <div class="seq-tint" aria-hidden="true"></div>
+
+  <div class="scenes" id="scenes">
+
+    <!-- ---- CENA 0 — HERO ---- -->
+    <section class="scene scene--center" data-scene="0" data-label="Scarlette Radiance">
+      <div class="scene__in">
+        <p class="kicker">wepink apresenta</p>
+        <h2 class="hero__title">Scarlette</h2>
+        <p class="hero__sub">Radiance — Eau de Parfum</p>
+      </div>
+    </section>
+
+    <!-- ---- CENA 1 ---- -->
+    <section class="scene scene--left" data-scene="1" data-label="A Fragrância">
+      <div class="scene__in">
+        <div class="card">
+          <p class="eyebrow">01 / A Fragrância</p>
+          <h2 class="card__title">Ilumine tudo<br><em>ao seu redor.</em></h2>
+          <span class="filete"></span>
+          <p class="card__text">Uma fragrância para mulheres que iluminam tudo ao seu redor. Scarlette Radiance traduz a essência da alta perfumaria contemporânea.</p>
+          <ul class="tags"><li>Feminino</li><li>Floral</li><li>Frutado</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- CENA 2 ---- -->
+    <section class="scene scene--right" data-scene="2" data-label="A Evolução">
+      <div class="scene__in">
+        <div class="card">
+          <p class="eyebrow">02 / A Evolução</p>
+          <h2 class="card__title">Feita para<br><em>evoluir.</em></h2>
+          <span class="filete"></span>
+          <p class="card__text">Nem todas as fragrâncias revelam sua verdadeira beleza na primeira borrifada. As mais extraordinárias escolhem evoluir.</p>
+          <ul class="tags"><li>Desodorante Colônia</li><li>50 ml</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- CENA 3 ---- -->
+    <section class="scene scene--left" data-scene="3" data-label="A Composição">
+      <div class="scene__in">
+        <div class="card">
+          <p class="eyebrow">03 / A Composição</p>
+          <h2 class="card__title">Luz, textura e<br><em>profundidade.</em></h2>
+          <span class="filete"></span>
+          <p class="card__text">Um equilíbrio perfeito que revela novas facetas conforme encontra a pele. Criada para quem reconhece a beleza nos detalhes.</p>
+          <ul class="tags"><li>Floral Luminoso</li><li>Assinatura Ambarada</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- CENA 4 ---- -->
+    <section class="scene scene--right" data-scene="4" data-label="Alta Perfumaria">
+      <div class="scene__in">
+        <div class="card">
+          <p class="eyebrow">04 / Alta Perfumaria</p>
+          <h2 class="card__title">Luminosa,<br>elegante<br><em>e atemporal.</em></h2>
+          <span class="filete"></span>
+          <p class="card__text">Uma criação floral luminosa de assinatura ambarada, onde cada evolução revela uma nova expressão de sofisticação.</p>
+          <ul class="tags"><li>Elegante</li><li>Atemporal</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---- CENA 5 — FECHAMENTO ---- -->
+    <section class="scene scene--center" data-scene="5" data-label="A Explosão de Cor">
+      <div class="scene__in">
+        <p class="kicker">Scarlette Radiance</p>
+        <h2 class="outro__title">Vista a cor.</h2>
+        <p class="outro__sub">Cada borrifada é uma explosão.<br>Leve a sua antes que acabe.</p>
+        <p class="price">
+          <span class="price__old">R$&nbsp;329,00</span>
+          <span class="price__now">R$&nbsp;89,90</span>
+          <span class="price__note">· Desodorante Colônia 50 ml</span>
+        </p>
+        <a class="btn" href="#" data-buy>Comprar agora</a>
+        <p class="foot">wepink © 2026 · Renderizado em Higgsfield</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<!-- ============ HUD ============ -->
+<div class="hint" id="hint"><span>Role para girar</span></div>
+<div class="bar" aria-hidden="true"><span class="bar__fill" id="barFill"></span></div>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
